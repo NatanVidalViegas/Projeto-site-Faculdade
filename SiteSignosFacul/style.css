@@ -1,0 +1,41 @@
+#cabeçalhopagina{
+    text-align: center;
+    background-image: url(imagens/fundocabeçalho.png);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    
+}
+#logocabeçalho{
+    margin: 0 auto;
+    width: 260px;
+    height: 110px;
+    border-radius: 100px;
+    border: 2px rgb(255, 255, 255) dotted;
+}
+
+body{
+    background-image:url(imagens/galaxy.png);
+    font-style: italic;
+    font-family:cursive;
+}
+#divcentral{
+    margin: 0 auto; /*essa combinação centraliza o elemento*/
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid 3px rgb(167, 64, 180);
+}
+#cabeçalhocentro{
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: rgb(167, 64, 180) 3px solid;
+}
+input{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+/*www.mapadomeuceu.com.br/blog/a-personalidade-dos-signos fonte do conteudo*/
