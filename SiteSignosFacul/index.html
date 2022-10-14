@@ -11,19 +11,28 @@
 <body>
     <header id='cabeçalhopagina'>
         <div id='logocabeçalho'>
-        <h2 style="color:white">Astron Logos</h2>
-        <b style="color: white;" >Horóscopo diario do seu signo</b>
+        <h2 style="color:rgb(214, 179, 158)">Astron Logos</h2>
+        <b style="color: rgb(214, 179, 158);" >Horóscopo diario do seu signo</b>
        </div>
     </header>
-    <div id='divcentral'>
+    <section id='divcentral'>
         <Header id='cabeçalhocentro'>
         <h3>Bem vindo a nossa página. Vamos descobrir seu signo!</h3>
-    </Header>
-        <label for="nome">Qual o seu nome?</label>
-        <input placeholder='Digite seu nome' type="text" name="nome" id="nome"><br>
-        <label for="data"> Selecione a data do seu nascimento.</label>
-        <input type="date" name="data" id="data">
-    </div>
+        </Header>
+        <label for="dianascimento"> Qual o dia que você nasceu?</label>
+        <input id='dianascimento'type="number" placeholder="Digite o dia."><br>
+        <label for="mesnascimento"> Qual o mês de nascimento?</label>
+        <input id='mesnascimento'type="number" placeholder="Digite o número do mês">
+        <input type="button" onclick="verificarsignos()" value="Verificar">
+        <hr>
+        <div id="foto">
+            <h2 style="color:rgb(167, 64, 180)"> Você é do signo de?</h2>
+            <img id='imagem'src="imagens/logosignos.png" alt="">
+        </div>
+    </section>
 </body>
+<footer>
+    <p>&copy; Made by Natan Vidal Viegas</p>
+</footer>
 <script src="CodSig.js"></script>
 </html>

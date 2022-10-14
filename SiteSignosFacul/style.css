@@ -11,7 +11,7 @@
     width: 260px;
     height: 110px;
     border-radius: 100px;
-    border: 2px rgb(255, 255, 255) dotted;
+    border: 5px rgb(214, 179, 158) solid;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
     margin: 0 auto; /*essa combinação centraliza o elemento*/
     background-color: white;
     width: 700px;
-    height: 500px;
+    height: 750px;
     border-radius: 50px;
     border: solid 3px rgb(167, 64, 180);
 }
@@ -35,7 +35,17 @@ body{
     border-bottom: rgb(167, 64, 180) 3px solid;
 }
 input{
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+#foto{
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+}
+
 /*www.mapadomeuceu.com.br/blog/a-personalidade-dos-signos fonte do conteudo*/
